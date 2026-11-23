@@ -163,13 +163,13 @@ export default function BookDetail() {
                     <img
                       src={book.coverImageUrl}
                       alt={`${book.title} 표지`}
-                      className="img-fluid rounded shadow"
-                      style={{ maxWidth: 240 }}
+                      className="d-block mx-auto rounded shadow"
+                      style={{ width: "100%", maxWidth: 240, height: "auto" }}
                     />
                   ) : (
                     <div
                       className="bg-light text-muted rounded d-flex align-items-center justify-content-center mx-auto"
-                      style={{ width: 200, height: 300 }}
+                      style={{ width: "100%", maxWidth: 200, aspectRatio: "2 / 3" }}
                     >
                       표지 없음
                     </div>
@@ -191,7 +191,7 @@ export default function BookDetail() {
 
                 <div className="col-12 col-md-8">
                   <h2 className="h5">책 내용</h2>
-                  <p style={{ whiteSpace: "pre-wrap" }}>
+                  <p style={{ whiteSpace: "pre-wrap", overflowWrap: "anywhere" }}>
                     {book.content || "등록된 도서 소개가 없어요."}
                   </p>
 
