@@ -2,8 +2,8 @@
 
 /*
   색상 팔레트
-  - navbar: #C7E3E3 (연한 민트)  → 199, 227, 227
-  - 본문 배경: #D4E0E0 (회색빛 민트) → .app-bg
+  - navbar: #B8DCDC (연한 민트)  → 184, 220, 220
+  - 본문 배경: #F1FBFB (아주 연한 민트) → .app-bg
   - 포인트: #31ADAA (틸)        → 49, 173, 170
   색을 바꾸려면 아래 값과 버튼 블록의 값을 함께 수정하세요.
 */
@@ -12,8 +12,8 @@
   --bs-body-font-family: "NanumBarunGothic", sans-serif;
 
   /* navbar 배경: Layout의 bg-body-tertiary가 이 값을 씁니다 */
-  --bs-tertiary-bg: #c7e3e3;
-  --bs-tertiary-bg-rgb: 199, 227, 227;
+  --bs-tertiary-bg: #b8dcdc;
+  --bs-tertiary-bg-rgb: 184, 220, 220;
 
   /* 포인트 색: navbar(bg-primary) 등에 쓰입니다 */
   --bs-primary: #31adaa;
@@ -73,7 +73,7 @@
 
 /* 내비게이션 바 아래 본문 영역의 배경(채도 낮은 회색톤). Layout에서 사용 */
 .app-bg {
-  background-color: #f1fbfb;
+  background-color: #f0f5f5;
 }
 
 /* 흰 카드의 테두리: 1px, navbar 선·제목 밑줄과 같은 색 */
